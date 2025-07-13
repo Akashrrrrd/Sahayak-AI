@@ -7,9 +7,14 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Sahayak AI - Teaching Assistant for India",
+  title: "Sahayak AI",
   description: "AI-powered teaching assistant for India's multi-grade classrooms (Grade 1-12)",
-    generator: 'v0.dev'
+    generator: 'Akash R',
+    icons: {
+      icon: '/image.png',
+      shortcut: '/image.png',
+      apple: '/image.png', 
+    },
 }
 
 export default function RootLayout({
